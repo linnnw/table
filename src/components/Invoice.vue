@@ -12,25 +12,25 @@
                     <div class="head_r">
                         <ul>
                             <li>
-                                <div class="justify">名称<span></span></div>
+                                <div class="justify">名 称<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">纳税人识别号 <span></span></div>
+                                <div class="justify">纳 税 人 识 别 号<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">地址电话 <span></span></div>
+                                <div class="justify">地 址 电 话<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">开户行及账号 <span></span></div>
+                                <div class="justify">开 户 行 及 账 号<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
@@ -65,25 +65,25 @@
                     <div class="head_r">
                         <ul>
                             <li>
-                                <div class="justify">名 称 <span></span></div>
+                                <div class="justify">名 称<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">纳税人识别号 <span></span></div>
+                                <div class="justify">纳 税 人 识 别 号<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">地 址 电 话 <span></span></div>
+                                <div class="justify">地 址 电 话<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
                             </li>
                             <li>
-                                <div class="justify">开 户 行 及 账 号 <span></span></div>
+                                <div class="justify">开 户 行 及 账 号<span></span></div>
                                 <div class="ipn">
                                     <span>:</span><input type="text">
                                 </div>
