@@ -11,7 +11,7 @@
                     align="center"
                     width="25">
                 <template slot-scope="scope">
-                    <i class="el-icon-circle-plus-outline" @click="add"></i>
+                    <i class="el-icon-circle-plus-outline" @click="add(scope)"></i>
                     <i class="el-icon-remove-outline" @click="del(scope)"></i>
                 </template>
 
@@ -100,7 +100,7 @@
             }
         },
         methods: {
-            add() {
+            add(scope) {
                 let data = {
                     id: '',
                     name: '',
@@ -113,7 +113,9 @@
                     shuie: ''
                 }
                 data.id = this.randomId();
-                this.tableData.push(data)
+                let index = this.tableData.indexOf(scope.row);
+                this.tableData.splice(index + 1, 0, data);
+
             },
             del(scope) {
                 if (this.tableData.length > 1 ) {
