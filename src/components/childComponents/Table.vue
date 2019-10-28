@@ -4,7 +4,7 @@
                 :data="tableData"
                 border
                 :header-cell-style="{color: '#a86a13'}"
-                style="width: 99.8%;font-size: 12px; margin-left: 1px">
+                style="width: 99.8%;font-size: 14px; margin-left: 1px">
 
 
             <el-table-column
@@ -87,14 +87,36 @@
                 tableData: [
                     {
                         id: this.randomId,
-                        name: '123',
-                        type: '12',
-                        unit: '12',
-                        num: '12',
-                        price: '12',
-                        money: '12',
-                        shuilv: '12',
-                        shuie: '12'
+                        name: '',
+                        type: '',
+                        unit: '',
+                        num: '',
+                        price: '',
+                        money: '',
+                        shuilv: '',
+                        shuie: ''
+                    },
+                    {
+                        id: this.randomId,
+                        name: '',
+                        type: '',
+                        unit: '',
+                        num: '',
+                        price: '',
+                        money: '',
+                        shuilv: '',
+                        shuie: ''
+                    },
+                    {
+                        id: this.randomId,
+                        name: '',
+                        type: '',
+                        unit: '',
+                        num: '',
+                        price: '',
+                        money: '',
+                        shuilv: '',
+                        shuie: ''
                     }
                 ]
             }
@@ -134,6 +156,8 @@
 
         mounted() {
             this.tableData[0].id = this.randomId();
+            this.tableData[1].id = this.randomId();
+            this.tableData[2].id = this.randomId();
         }
     }
 </script>
@@ -144,8 +168,9 @@
     }
     .el-input__inner {
         border: 0!important;
-        height: 22px!important;
-        font-size: 12px!important;
+        height: 27px!important;
+        line-height: 27px!important;
+        font-size: 14px!important;
     }
     .el-icon-circle-plus-outline,
     .el-icon-remove-outline {

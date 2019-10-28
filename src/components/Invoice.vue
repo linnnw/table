@@ -91,8 +91,8 @@
                         </ul>
 
                         <div class="remarks">
-                            <div class="remarks_l">备注</div>
-                            <div>12345</div>
+                            <div class="remarks_l">备注<span></span></div>
+                            <div class="content"><textarea class="remarks_ipn" cols="30" rows="10"></textarea></div>
                         </div>
 
                     </div>
@@ -143,7 +143,7 @@
         position: absolute;
         right: 60px;
         top: -30px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .w h2::after {  /*标题下的两条线*/
         content: "";
@@ -183,7 +183,7 @@
         font-weight: normal;
         width: 100%;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -195,7 +195,7 @@
     }
     .head_foot .head_r li {
         margin-left: 5px;
-        font-size: 12px;
+        font-size: 14px;
         position: relative;
         height: 22px;
     }
@@ -270,7 +270,7 @@
     .moneyLeft {
         flex: 1;
         border-right: 2px solid #a86a13;
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
         line-height: 35px;
         letter-spacing: 2px;
@@ -283,7 +283,7 @@
         width: 232px;
         position: absolute;
         right: 0;
-        font-size: 12px;
+        font-size: 14px;
         line-height: 35px;
     }
 
@@ -293,18 +293,41 @@
         position: absolute;
         right: 0;
         top: 0;
+        width: 350px;
+        height: 100%;
+        font-size: 14px;
     }
-
     .remarks div {
         float: left;
     }
+    .remarks_l {
+        height: 100%;
+        border-left: 2px solid #a86a13;
+        border-right: 2px solid #a86a13;
+        width: 30px;
+        text-align: center;
+        padding: 0 3px;
+        box-sizing: border-box;
+        line-height: 49px;
+    }
+    .remarks .content {
+        padding: 8px;
+    }
+    .remarks .remarks_ipn {
+        width: 300px;
+        height: 75px;
+        border: 0;
+        resize: none;
+        outline: none;
+    }
+
 
     /*尾部*/
     .pageFoot {
         width: 230px;
         float: left;
         padding: 14px;
-        font-size: 12px;
+        font-size: 14px;
         box-sizing: border-box;
         color: #a86a13;
     }
